@@ -84,8 +84,8 @@ section h1 {
 
 /* media query for mobile */
 @media (min-width: 320px) {
-    .bottom-main-content{
-        background-color:rgb(140, 149, 234)
+    header{
+        background-color:rgb(140, 207, 234)
     }
 
     }
@@ -93,7 +93,7 @@ section h1 {
 /* Medium and up (Tablets) */
 @media (min-width: 768px) {
     header {
-        background-color: rgb(207, 239, 252)
+        background-color: rgb(200, 172, 48)
     }
 
   }
