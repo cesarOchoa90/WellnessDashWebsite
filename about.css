@@ -82,26 +82,42 @@ section h1 {
     padding-right:40px;
 }
 
-/* media query for mobile */
-@media (min-width: 320px) {
-    header{
-        background-color:rgb(140, 207, 234)
+/* Large and up (Desktops) */
+@media (max-width: 992px) {
+    header {
+        background-color: rgb(70, 64, 234);
+    }
+    
+    #header-title {
+        margin-left: 20px;
+    }
+    
+    .column-container {
+        margin-left: 25px;
+        margin-right: 25px;
     }
 
+    .footer-column {
+        margin-left: 40px;
+        
     }
+}
 
-/* Medium and up (Tablets) */
-@media (min-width: 768px) {
+  /* Medium and up (Tablets) */
+@media (max-width: 768px) {
     header {
         background-color: rgb(200, 172, 48)
     }
 
   }
 
-/* Large and up (Desktops) */
-@media (min-width: 992px) {
-    header {
-        background-color: rgb(70, 64, 234);
+
+/* media query for mobile */
+@media (max-width: 320px) {
+    header{
+        background-color:rgb(140, 207, 234)
     }
 
-  }
+    }
+
+
